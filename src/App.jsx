@@ -1,13 +1,13 @@
-import "./App.css";
-import HeroSection from "./components/Hero";
-import Navigation from "./components/Navigation";
-const App = () => {
+import Register from './Register';
+import Login from './Login';
+
+function App() {
+
   return (
-    <div>
-      <Navigation />
-      <HeroSection />
-    </div>
+    <main className="App">
+      <Login />
+    </main>
   );
-};
+}
 
 export default App;
